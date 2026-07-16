@@ -101,3 +101,5 @@ Bash is a shell scripting language , a command‑line interface interpreter that
 ![Excuted steps](image-1.png)
 * `git add` Stages changes (new files, modifications, deletions) so they are ready to be committed. `git add *` * is not a Git feature — it’s a shell glob (wildcard) that matches all files and directories in the current directory (but not hidden files starting with .).
 The shell expands * before Git sees it.
+* `git commit -m ""` -m means a commit message  
+![ex in terminal](image-4.png)
