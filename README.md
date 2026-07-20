@@ -1,5 +1,27 @@
 # Python_for_Devops
+**Python Libraries**
+1. `pylint` — Code Quality Checker (Linter)
+pylint analyzes your Python code and looks for:
+>Syntax errors  
+>Bugs and bad practices    
+>Style violations  
+>Unused variables/imports  
+>Missing documentation  
 
+2. `pytest` — Testing Framework
+pytest is used to write and run tests.
+>Ex: 
+def add(a, b):  
+    return a + b  
+
+>Test file:  
+def test_add():  
+    assert add(2, 3) == 5  
+
+pytest runs the test, and output is: ``passed``
+
+3. ``black`` — Code Formatter
+black automatically reformats Python code into a consistent style.
 ## Create a project scaffold
 
 * Create development environment that is cloud-based:
@@ -103,3 +125,12 @@ Bash is a shell scripting language , a command‑line interface interpreter that
 The shell expands * before Git sees it.
 * `git commit -m ""` -m means a commit message  
 ![ex in terminal](image-4.png)
+* `pip freeze | wc -l` pip is Python's package manager. It is the command-line tool used to: Install packages, Upgrade packages, Remove packages, List installed packages. `freeze` is a subcommand of pip, it prints all installed packages and their exact versions in a format suitable for a requirements file.
+`pip freeze` Lists all installed Python packages in the current environment, typically in the format:
+>umpy==2.0.1  
+>pandas==2.2.2  
+>requests==2.32.3  
+
+`|` (pipe) Sends the output of the command on the left as input to the command on the right.
+`wc -l` wc means word count. The -l option counts lines.  
+So the command counts how many package entries are returned by pip freeze.
