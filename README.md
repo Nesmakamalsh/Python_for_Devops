@@ -1,5 +1,20 @@
 [![Test Multiple Python Versions](https://github.com/Nesmakamalsh/Python_for_Devops/actions/workflows/main.yml/badge.svg)](https://github.com/Nesmakamalsh/Python_for_Devops/actions/workflows/main.yml)
 # Python_for_Devops
+## Create a project scaffold
+
+* Create development environment that is cloud-based:
+### [Colab notebook] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/Python_for_Devops.ipynb)
+### Github code spaces
+
+Build out python project scaffold:
+
+#### [Makefile]: (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/Makefile)
+  * It automates build steps (like compiling and linking code) by listing targets (what to build), prerequisites (what’s needed), and recipes (commands to run)
+  * It tracks dependencies so make only recompiles files that have changed, saving time and avoiding unnecessary work
+  * It can also run other tasks (e.g., cleaning up files, generating data) when requested
+#### [requirements.txt] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/requirements.txt)
+#### [test_library.py] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/test_devopslib.py)
+#### [python_library] (https://github.com/Nesmakamalsh/Python_for_Devops/tree/main/devopslib)
 **Python Libraries**
 1. `pylint` — Code Quality Checker (Linter)
 pylint analyzes your Python code and looks for:
@@ -23,21 +38,6 @@ pytest runs the test, and output is: ``passed``
 
 3. ``black`` — Code Formatter
 black automatically reformats Python code into a consistent style.
-## Create a project scaffold
-
-* Create development environment that is cloud-based:
-### [Colab notebook] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/Python_for_Devops.ipynb)
-### Github code spaces
-
-Build out python project scaffold:
-
-#### [Makefile]: (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/Makefile)
-  * It automates build steps (like compiling and linking code) by listing targets (what to build), prerequisites (what’s needed), and recipes (commands to run)
-  * It tracks dependencies so make only recompiles files that have changed, saving time and avoiding unnecessary work
-  * It can also run other tasks (e.g., cleaning up files, generating data) when requested
-#### [requirements.txt] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/requirements.txt)
-#### [test_library.py] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/test_devopslib.py)
-#### [python_library] (https://github.com/Nesmakamalsh/Python_for_Devops/tree/main/devopslib)
 #### Dockerfile
 #### command_line_tool
 #### Microservice
