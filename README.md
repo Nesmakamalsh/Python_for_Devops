@@ -31,13 +31,13 @@ black automatically reformats Python code into a consistent style.
 
 Build out python project scaffold:
 
-#### Makefile:
+#### [Makefile]: (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/Makefile)
   * It automates build steps (like compiling and linking code) by listing targets (what to build), prerequisites (what’s needed), and recipes (commands to run)
   * It tracks dependencies so make only recompiles files that have changed, saving time and avoiding unnecessary work
   * It can also run other tasks (e.g., cleaning up files, generating data) when requested
-#### requirements.txt
-#### test_library.py
-#### python_library
+#### [requirements.txt] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/requirements.txt)
+#### [test_library.py] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/test_devopslib.py)
+#### [python_library] (https://github.com/Nesmakamalsh/Python_for_Devops/tree/main/devopslib)
 #### Dockerfile
 #### command_line_tool
 #### Microservice
@@ -103,6 +103,8 @@ Type Your Text. Once in Insert mode, you can type normally.
 Press Esc to go back to Normal mode.
 >4. Save and Quit `:wq`
 and press Enter.
+
+3. `make all`
 
 ### AWS cloudShell
 ### AWS cloud9
