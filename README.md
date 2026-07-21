@@ -110,6 +110,37 @@ and press Enter.
 ### AWS cloud9
 
 ## Command-Line Tools
+* `AWS Lambda` is a serverless compute service that allows you to run code without provisioning or managing servers. AWS automatically handles infrastructure management, scaling (Automatic Scaling: 1 user invokes the function → 1 executionor 10,000 users invoke the function → AWS automatically scales), availability, and execution environments, allowing developers to focus only on writing business logic.
+Lambda functions are commonly used to: Process files and events, Run automation tasks, Execute backend APIs, Integrate cloud services, Perform infrastructure operations, Trigger CI/CD workflows  
+What is AWS Lambda? AWS Lambda executes code in response to events.
+> Instead of:  
+Creating a server  
+Installing an operating system  
+Managing patches  
+Configuring scaling   
+
+>You simply:  
+Write code  
+Upload it to AWS Lambda  
+Configure a trigger  
+
+>Lambda can be triggered by:   
+S3 uploads  
+API Gateway requests  
+CloudWatch events  
+DynamoDB streams  
+SQS messages  
+SNS notifications  
+Step Functions
+
+* `AWS Step Functions` is a workflow orchestration service. It helps connect multiple AWS services into a coordinated workflow. Instead of writing complex orchestration code, Step Functions visually define:
+>What task runs first  
+What runs next  
+Error handling  
+Retries  
+Parallel execution  
+Conditional logic
+
 <img width="2514" height="1166" alt="image" src="https://github.com/user-attachments/assets/4f74058d-f402-4c87-8328-b16b06e2a8f4" />
 
 
