@@ -141,6 +141,7 @@ Retries
 Parallel execution  
 Conditional logic
 
+[workflow code ex] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/state-machine.json)
 <img width="2514" height="1166" alt="image" src="https://github.com/user-attachments/assets/4f74058d-f402-4c87-8328-b16b06e2a8f4" />
 
 
