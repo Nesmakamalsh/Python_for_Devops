@@ -26,7 +26,7 @@ black automatically reformats Python code into a consistent style.
 ## Create a project scaffold
 
 * Create development environment that is cloud-based:
-### Colab notebook 
+### [Colab notebook] (https://github.com/Nesmakamalsh/Python_for_Devops/blob/main/Python_for_Devops.ipynb)
 ### Github code spaces
 
 Build out python project scaffold:
