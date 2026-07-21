@@ -135,3 +135,5 @@ The shell expands * before Git sees it.
 `|` (pipe) Sends the output of the command on the left as input to the command on the right.
 `wc -l` wc means word count. The -l option counts lines.  
 So the command counts how many package entries are returned by pip freeze.
+* `git mv` is the Git command used to move or rename a file (or directory) while telling Git about the change.
+>git mv <old_name> <new_name>
