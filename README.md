@@ -110,6 +110,8 @@ and press Enter.
 ### AWS cloud9
 
 ## Command-Line Tools
+<img width="2514" height="1166" alt="image" src="https://github.com/user-attachments/assets/4f74058d-f402-4c87-8328-b16b06e2a8f4" />
+
 
 ## Microservices
 
