@@ -38,6 +38,33 @@ pytest runs the test, and output is: ``passed``
 
 3. ``black`` — Code Formatter
 black automatically reformats Python code into a consistent style.
+
+4. ``fire`` Python Fire is a simple way to create a CLI in Python. Fire is a helpful tool for developing and debugging Python code. it helps with exploring existing code or turning other people's code into a CLI, and it makes transitioning between Bash and Python easier.
+
+>if __name__ == '__main__':  
+    fire.Fire(hello)  
+
+Python sets a special variable called  `__name__` .
+
+If you run the file directly:  
+`python app.py`  
+then:
+__name__ == "__main__"  
+If you import the file from another script:
+`import app`  
+then:
+__name__ == "app"
+
+So it means only execute the code below if this file is being run directly.
+Fire automatically converts Python functions into command-line interfaces (CLI).
+Then you can run:  
+`python app.py John`  
+and get:  
+`Hello John`  
+Fire automatically: reads command-line arguments,
+Calls hello() func,
+Passes arguments to the function,
+Prints the result.
 #### Dockerfile
 #### command_line_tool
 #### Microservice
