@@ -65,6 +65,27 @@ Fire automatically: reads command-line arguments,
 Calls hello() func,
 Passes arguments to the function,
 Prints the result.
+(https://github.com/google/python-fire)
+
+5. ``Wikipedia`` is a Python library that makes it easy to access and parse data from Wikipedia. Search Wikipedia, get article summaries, get data like links and images from a page, and more. Wikipedia wraps the MediaWiki API so you can focus on using Wikipedia data, not getting it.
+(https://github.com/goldsmith/Wikipedia)
+
+6. ``TextBlob`` is a Python library for processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, and more.
+>Features:  
+Classification (Naive Bayes, Decision Tree)  
+Tokenization (splitting text into words and sentences)  
+Word and phrase frequencies  
+Parsing  
+n-grams  
+Word inflection (pluralization and singularization) and lemmatization  
+Spelling correction  
+Add new models or languages through extensions.
+
+(https://github.com/sloria/TextBlob)
+
+7. `FastAPI` is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.
+(https://github.com/FastAPI/FastAPI)
+
 #### Dockerfile
 #### command_line_tool
 #### Microservice
